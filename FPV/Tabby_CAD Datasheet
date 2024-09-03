@@ -50,3 +50,32 @@ v) Synchronous, asynchronous, and multi-clock designs, resets and latches
 
 SymbiYosys integrates with state-of-the-art SMT solvers and HW model checkers
 
+3) MCY (https://www.yosyshq.com/open-source#h.7lvtcin406jm): 
+MCY is a new tool to help digital designers and project managers understand and improve testbench coverage.
+
+4) Amaranth (https://www.yosyshq.com/open-source#h.48dond6xmkys): 
+A refreshed Python toolbox for building complex digital hardware.
+
+5) Nextpnr (https://www.yosyshq.com/open-source#h.qtav5ra5lhfo): 
+Nextpnr aims to be a vendor-neutral, timing-driven, FOSS FPGA place and route tool.
+
+6) IceStorm (https://www.yosyshq.com/open-source#h.o8frq2qlystu):
+Project IceStorm aims to document the bitstream format of Lattice iCE40 FPGAs and provide simple tools for analyzing and creating bitstream files. 
+
+7) Project Trellis (https://www.yosyshq.com/open-source#h.tki6bjudv9a5):
+Project Trellis enables a fully open-source flow for ECP5 FPGAs using Yosys for Verilog synthesis and nextpnr for place and route. 
+
+8) PicoRV32 (https://www.yosyshq.com/open-source#h.lhlmi7jk5vtk)
+PicoRV32 is a CPU core that implements the RISC-V RV32IMC Instruction Set. It can be configured as RV32E, RV32I, RV32IC, RV32IM, or RV32IMC core, 
+and optionally contains a built-in interrupt controller.
+
+9) PicoRV32 (https://www.yosyshq.com/open-source#h.lhlmi7jk5vtk)
+PicoRV32 is a CPU core that implements the RISC-V RV32IMC Instruction Set.
+
+10) riscv-formal (https://www.yosyshq.com/open-source#h.bhivb3bfiryc)
+riscv-formal is a framework for formal verification of RISC-V processors.
+
+11) CXXRTL (https://www.yosyshq.com/open-source#h.zf8cw4xywtw0)
+CXXRTL is a high-performance simulation back-end for Yosys. It writes optimized C++ code that simulates the design.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
