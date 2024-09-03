@@ -5,14 +5,15 @@ Tabby CAD Suite includes all our software, as we create more tools they are auto
 
 1) Industrial HDL Support: Verilog 1995/2000/2005, SystemVerilog 2005/2009/2012, VHDL 1987/1993/2000/2008, SystemVerilog Assertions (SVA)
 
-2) Formal Assertion Based Verification (ABV): Powered by Yosys and SBY Formal Property Checker, Formal Verification of safety and liveness properties, Formal Reachability analysis and witness generation, Support for multiple formal engines via one unified front-end
+2) Formal Assertion Based Verification (ABV): Powered by Yosys and SBY Formal Property Checker, Formal Verification of safety and liveness properties, Formal Reachability analysis and witness generation, 
+Support for multiple formal engines via one unified front-end
 
 3) Formal Mutation Coverage: Powered by Yosys and MCY Formal Mutation Coverage Tool, Mutation Testing for testbench qualification, Use of formal model to exclude false coverage gaps
 
 4) Synthesis and Place-and-Route: Powered by Yosys and nextpnr Place-and-Route tool, HDL Synthesis for various FPGA architectures and ASIC libraries, FPGA Place-and-Route for various FPGA architectures
 
 5) Open Architecture: Extensible, Inspectable and fully configurable flow, C++ APIs that allow the addition of new Yosys passes in the form of runtime loadable modules
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 => List of Software Included
 
 1) YosysHQ Software: Yosys (YosysHQ Commercial Build) with added support for SystemVerilog, SVA, and VHDL, SBY Formal Property Checker, MCY Formal Mutation Coverage Tool, NextPnR FPGA Multi-Architecture Place-and-Route
@@ -24,3 +25,28 @@ Tabby CAD Suite includes all our software, as we create more tools they are auto
 macOS (x86-64): 10.14 Mojave, 10.15 Catalina, 11 Big Sur
 
 4) Microsoft Windows (x86-64)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=> Open Source Projects maintained by YosysHQ members 
+
+1) Yosys(https://www.yosyshq.com/open-source#h.4axh1nbrg79g): 
+Yosys is a framework for RTL synthesis and more. 
+It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. 
+Yosys is the core component of most of our implementation and verification flows.
+
+The version of Yosys that is included in Tabby CAD Suite also includes industrial-strength SystemVerilog and VHDL front-ends.
+
+2) SBY(https://www.yosyshq.com/open-source#h.65xdr0xsveqo): 
+SymbiYosys (SBY) is a  front-end for Yosys-based formal verification flows with support for
+
+i) Unbounded and bounded verification of safety properties
+
+ii) Unbounded verification of liveness properties
+
+iii) Reachability check and bounds-detection for cover properties
+
+iv) Additional attributes for management of unconstrained signals
+
+v) Synchronous, asynchronous, and multi-clock designs, resets and latches
+
+SymbiYosys integrates with state-of-the-art SMT solvers and HW model checkers
+
