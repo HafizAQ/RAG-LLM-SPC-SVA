@@ -1,0 +1,26 @@
+Source Content, Please Ref: https://www.yosyshq.com/tabby-cad-datasheet
+
+Highlighted Features
+Tabby CAD Suite includes all our software, as we create more tools they are automatically added and made available to our users at no extra cost
+
+1) Industrial HDL Support: Verilog 1995/2000/2005, SystemVerilog 2005/2009/2012, VHDL 1987/1993/2000/2008, SystemVerilog Assertions (SVA)
+
+2) Formal Assertion Based Verification (ABV): Powered by Yosys and SBY Formal Property Checker, Formal Verification of safety and liveness properties, Formal Reachability analysis and witness generation, Support for multiple formal engines via one unified front-end
+
+3) Formal Mutation Coverage: Powered by Yosys and MCY Formal Mutation Coverage Tool, Mutation Testing for testbench qualification, Use of formal model to exclude false coverage gaps
+
+4) Synthesis and Place-and-Route: Powered by Yosys and nextpnr Place-and-Route tool, HDL Synthesis for various FPGA architectures and ASIC libraries, FPGA Place-and-Route for various FPGA architectures
+
+5) Open Architecture: Extensible, Inspectable and fully configurable flow, C++ APIs that allow the addition of new Yosys passes in the form of runtime loadable modules
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+=> List of Software Included
+
+1) YosysHQ Software: Yosys (YosysHQ Commercial Build) with added support for SystemVerilog, SVA, and VHDL, SBY Formal Property Checker, MCY Formal Mutation Coverage Tool, NextPnR FPGA Multi-Architecture Place-and-Route
+
+2) 3rd Party Open Source Software: Formal Solvers (ABC, AVY, Boolector, BTORMC, Pono, Super Prover, Yices2, Z3), GtkWave, Python 2, Python 3
+
+3) Platforms supported: Linux (x86-64, RISC-V, and ARM), Arch Linux, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Fedora 33, Fedora 34, other distributions can be added on customer request
+
+macOS (x86-64): 10.14 Mojave, 10.15 Catalina, 11 Big Sur
+
+4) Microsoft Windows (x86-64)
