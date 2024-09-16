@@ -1,4 +1,4 @@
-# RAG-LLM
+# RAG-LLM-SPC-SVA
 Enhanced VLSI Assertion Generation: Conforming to High-Level Specifications and Reducing LLM Hallucinations with RAG
 
 
