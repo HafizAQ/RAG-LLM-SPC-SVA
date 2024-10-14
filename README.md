@@ -1,8 +1,11 @@
-#RAG-LLM-SPC-SVA
+#**RAG-LLM-SPC-SVA**
+
 **Enhanced VLSI Assertion Generation: Aligning with High-Level Specifications and Minimizing LLM Hallucinations Using RAG**
 
 
+
 **Overview**
+
 This repository provides a framework for generating SystemVerilog Assertions (SVAs) for VLSI design verification using a Retrieval-Augmented Generation (RAG) approach in conjunction with Large Language Models (LLMs). 
 The method aims to ensure conformity to high-level specifications (HLS) and reduce the potential for hallucinations inherent in LLM-generated assertions.
 
