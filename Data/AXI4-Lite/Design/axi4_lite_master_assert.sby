@@ -1,0 +1,25 @@
+[options]
+mode bmc
+depth 100
+
+[engines]
+smtbmc yices
+
+[script]
+read -sv axi4_lite_Defs.sv
+read -sv axi4_lite_if.sv
+read -sv axi4_lite_master.sv
+read -sv axi4_lite_slave.sv
+read -formal axi4_lite_top.sv
+verific -import axi4_lite_top
+prep -top axi4_lite_top
+memory_map -rom-only
+
+
+[files]
+axi4_lite_Defs.sv
+axi4_lite_if.sv
+axi4_lite_master.sv
+axi4_lite_slave.sv
+axi4_lite_top.sv
+assertions.sv
