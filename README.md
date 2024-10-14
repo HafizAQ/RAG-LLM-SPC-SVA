@@ -43,9 +43,9 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
     Utilize prompts from the prompt-engineering file to assign specific roles to the LLM for efficient and contextually accurate assertion generation.
 
-  iv) Execution:
+  iv) Execution: 
 
-    Run the code to generate assertions and knowledge-based results from the LLM.
+    Run the code (Enhanced_VLSI_Assertion_Generation_Conforming_to_High_Level_Specifications_and_Reducing_LLM_Hallucinations_with_RAG.ipynb) to generate assertions and knowledge-based results from the LLM.
     
     Store the generated assertions and results for subsequent validation.
 
