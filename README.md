@@ -16,16 +16,16 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
   i) Case Study - High-Level Specification (HLS) Document:
 
-    Source document: AMBA AX4 Lite Protocol PDF (AMBA AXI Protocol Specification: https://developer.arm.com/documentation/ihi0022/).
+    * Source document: AMBA AX4 Lite Protocol PDF (AMBA AXI Protocol Specification: https://developer.arm.com/documentation/ihi0022/).
     
-    Convert the PDF document into Markdown format for structured referencing.
+    * Convert the PDF document into Markdown format for structured referencing.
 
   ii) Designer Specifications:
   
-    Define designer-side specifications for intended SystemVerilog Assertions (SVAs) generation.
+    * Define designer-side specifications for intended SystemVerilog Assertions (SVAs) generation.
 
   iii) Golden DUV (Design-Under-Verification):
-    Use a verified golden DUV for comparison and validation of generated assertions.
+    * Use a verified golden DUV for comparison and validation of generated assertions.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -33,21 +33,21 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
   i) Setup and API Key:
 
-    Provide the OpenAI API key for chat completion.
+    * Provide the OpenAI API key for chat completion.
 
   ii) File References:
 
-    Ensure references to the HLS document, designer specifications, and golden DUV are accessible within the setup.
+    * Ensure references to the HLS document, designer specifications, and golden DUV are accessible within the setup.
 
   iii) Prompt Engineering:
 
-    Utilize prompts from the prompt-engineering file to assign specific roles to the LLM for efficient and contextually accurate assertion generation.
+    * Utilize prompts from the prompt-engineering file to assign specific roles to the LLM for efficient and contextually accurate assertion generation.
 
   iv) Execution: 
 
-    Run the code (Enhanced_VLSI_Assertion_Generation_Conforming_to_High_Level_Specifications_and_Reducing_LLM_Hallucinations_with_RAG.ipynb) to generate assertions and knowledge-based results from the LLM.
+    * Run the code (Enhanced_VLSI_Assertion_Generation_Conforming_to_High_Level_Specifications_and_Reducing_LLM_Hallucinations_with_RAG.ipynb) to generate assertions and knowledge-based results from the LLM.
     
-    Store the generated assertions and results for subsequent validation.
+    * Store the generated assertions and results for subsequent validation.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -55,19 +55,19 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
   i) Validation Setup:
 
-    To verify generated assertions against the DUV, employ formal property verification through Bounded Model Checking (BMC).
+    * To verify generated assertions against the DUV, employ formal property verification through Bounded Model Checking (BMC).
 
   ii) Tool Setup:
 
-    Download and install the Tabby-CAD toolset for BMC (https://www.yosyshq.com/tabby-cad-datasheet).
+    * Download and install the Tabby-CAD toolset for BMC (https://www.yosyshq.com/tabby-cad-datasheet).
 
   iii) Assertion Integration:
 
-    Insert the RAG-LLM-generated assertions into the golden DUV code.
+    * Insert the RAG-LLM-generated assertions into the golden DUV code.
 
   iv) Execution and Verification:
 
-    Run Tabby-CAD to execute and validate the assertions, comparing outcomes against the original DUV specifications.
+    * Run Tabby-CAD to execute and validate the assertions, comparing outcomes against the original DUV specifications.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
