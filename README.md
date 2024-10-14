@@ -15,7 +15,7 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 **1) Data Preparation***
 
   i) Case Study - High-Level Specification (HLS) Document:
-
+  
     * Source document: AMBA AX4 Lite Protocol PDF (AMBA AXI Protocol Specification: https://developer.arm.com/documentation/ihi0022/).
     
     * Convert the PDF document into Markdown format for structured referencing.
