@@ -16,7 +16,7 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
   i) Case Study - High-Level Specification (HLS) Document:
 
-    Source document: AMBA AX4 Lite Protocol PDF (AMBA AXI Protocol Specification: https://developer.arm.com/documentation/ihi0022/latest/).
+    Source document: AMBA AX4 Lite Protocol PDF (AMBA AXI Protocol Specification: https://developer.arm.com/documentation/ihi0022/).
     
     Convert the PDF document into Markdown format for structured referencing.
 
@@ -73,4 +73,4 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
 **Applicability**
 
-  The RAG-LLM approach can be extended to other case studies and is compatible with future versions of models, such as GPT-4, Llama, and beyond.
+  The RAG-LLM approach can be extended to other case studies and is compatible with future versions of foundation/ language models, such as GPTs, Llama, and beyond.
