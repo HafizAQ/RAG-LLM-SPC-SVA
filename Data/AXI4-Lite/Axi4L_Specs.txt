@@ -1,7 +1,0 @@
-1. Ensure AWVALID is never asserted without AWADDR being valid
-2. Ensure ARVALID is never asserted without ARADDR being valid
-3. Ensure WVALID is never asserted without WDATA being valid
-4. Ensure RREADY is asserted only when RVALID is high
-5. When AWVALID and AWREADY are high at the same time, the next cycle AWVALID goes low
-6. Ensure BRREADY is asserted only when BVALID is high
-7. Ensure RREADY is asserted only when BVALID is high
