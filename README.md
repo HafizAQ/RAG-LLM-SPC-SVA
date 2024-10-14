@@ -12,7 +12,7 @@ The method aims to ensure conformity to high-level specifications (HLS) and redu
 
 **Steps**
 
-**i) Data Preparation (/Data)***
+**i) Data Preparation (/Data)**
 
   * Case Study - High-Level Specification (HLS) Document:
   
